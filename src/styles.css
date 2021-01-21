@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  background-color: antiquewhite;
+}
+input {
+  padding: 1%;
+  font-size: 150%;
+  width: 70%;
+  height: 5%;
+  border: 0;
+  border-bottom: 1px solid grey;
+  background-color: antiquewhite;
+}
+
+input:focus {
+  outline: none;
+}
+
+#emojis {
+  margin: 1%;
+  padding: 0.5rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
